@@ -1,52 +1,80 @@
-# Desafio para vaga de desenvolvedor Mobile ON GO
-## Considerações Gerais
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/danielwsilva/Ongo?color=%2304D361&style=for-the-badge">
+  
+  <a href="https://github.com/danielwsilva/lemaj-mobile/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/danielwsilva/Ongo?style=for-the-badge">
+  </a>
+  
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen?style=for-the-badge">
 
-* Sua aplicação Web deverá ser desenvolvida em React Native + Typescript.
+  <a href="https://github.com/danielwsilva">
+    <img alt="Feito por Daniel Wallaccec" src="https://img.shields.io/badge/feito%20por-danielwsilva-%237519C1?style=for-the-badge&logo=github">
+  </a>
+</p>
 
-* Devemos ser capazes de executar sua solução em uma VM limpa, com scripts de automatização de tarefas como Make, Shell Script ou similares. Esses scripts devem ser suficientes para rodarmos sua solução.
+<h1 align="center">
+  <img src="./src/assets/ongoteste.gif" width="300px"><br> 
+</h1>
 
-* Windows 10, Android
-
-* No seu README, você deverá fazer uma explicação sobre a solução encontrada, tecnologias envolvidas e instrução de uso da solução. 
-
-* É interessante que você também registre ideias que gostaria de implementar caso tivesse mais tempo.
-
-## Problema
+## 💻 Sobre o projeto
 
 Imagine que você ficou responsável por contruir um Aplicativo que seja capaz de registrar alguns Endereços do seu cliente para uso em outras áreas futuramente. Seu cliente também deseja que na solução ele possa visualizar esses registros de forma clara.
 
-Documentação da API: https://documenter.getpostman.com/view/3812853/TzK15ZxU
+## 🧭 Rodando a aplicação
 
-## Requisitos
+```bash
 
-* Sua solução deverá ser capaz de controlar a autenticação do usuário através de login
+# Clone este repositório
+$ git clone https://github.com/danielwsilva/Ongo.git
 
-* A Cidade e Estado devem ser capturada automaticamente pelo CEP Informado.
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd Ongo
 
-* Para visualização desses dados, sua solução deve possuir:
-    * Uma Listagem que mostre todos os registros de Terminais.
-    * Uma Página detalhada dos dados do Terminal
+# Instale as dependências
+$ yarn
 
-* Sua Aplicação deverá permitir pesquisas pelo nome dos Terminais
+# Execute a aplicação em modo de desenvolvimento
+$ yarn start
 
-* Sua Aplicação deverá exibir um mapa com marcador para que seja posicionado e capturado a Latitude e Longitude exata e também pode ser capturada pela localização atual do dispositivo.
+```
 
-* Sua solução deve permitir que o usuário altere dados de determinado Terminal
+## 🛠 Tecnologias
 
-* Sua Aplicação deverá utilizar API's como ViaCep, IBGE, entre outras para consulta e preenchimento automatico de dados de Estado, cidade a partir do CEP Informado.
+As técnologias envolvidas na construção do projeto:
 
-## Diferenciais
+#### React Native
 
-* Utilização de Redux + Axios
+- **react-navigation**
+- **styled-components**
+- **axios**
+- **expo-location**
+- **react-native-flash-message**
+- **react-native-maps**
+- **vector-icons**
+- **expo-google-fonts**
+- **lottie-react-native**
+- **React Hooks (useState, useEffect e useContexte)**
 
-* Utilização de React Hooks
 
-* Desenvolver testes automatizados ( storybook, entre outras bibliotecas que desejar e tiver conhecimento )
+## 🦸‍♂️ **Autor**
 
-## Avaliação
+<p>
+<kbd>
+ <img src="https://avatars.githubusercontent.com/u/49720616?s=460&u=f377fae2c3a34e88ec79b138ad3b9aa980f013c6&v=4" width="150px;" alt=""/>
+ </kbd>
+ <br />
+ <sub><strong>🌟 Daniel Wallace 🌟</strong></sub>
+</p>
 
-Nossa equipe de desenvolvedores irá avaliar código, simplicidade da solução, testes unitários, arquitetura e automatização de tarefas.
+[![Linkedin Badge](https://img.shields.io/badge/-Daniel-blue?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/daniel-wallace-1b9280b2/)](https://www.linkedin.com/in/daniel-wallace-1b9280b2/)
+[![Gmail Badge](https://img.shields.io/badge/-danielwllace@gmail.com-c14438?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:danielwllace@gmail.com)](mailto:danielwllacec@gmail.com)
 
-Tente automatizar ao máximo sua solução. Isso porque no caso de deploy em vários servidores, não é interessante que tenhamos que entrar de máquina em máquina para instalar cada componente da solução.
+---
 
-Em caso de dúvida, entre em contato com o responsável pelo seu processo seletivo.
+## 📝 Licença
+
+Este projeto esta sobe a licença [MIT](./LICENSE).
+
+Feito com :satisfied: por Daniel Wallacec 👋🏽 [Entre em contato!](https://www.linkedin.com/in/daniel-wallace-1b9280b2/)
+
+---
